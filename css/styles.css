@@ -1,0 +1,253 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster|Playfair+Display:400,700|Raleway:400,800';
+
+/*NAV BEGINS*/
+.navbar-default {
+     background: none;
+     border: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li>a  {
+  color: #F8512F;
+}
+
+a.navbar-brand{
+  display: inline-block;
+  height: 40px;
+  width: 210px;
+}
+
+.navbar-brand{
+  background-image: url("../img/name-01.png");
+  background-repeat: no-repeat;
+}
+/*NAV ENDS*/
+
+/*CAROUSEL BEGINS*/
+.item{
+  height: 500px;
+}
+#slider-logo{
+  display: flex;
+  height: 500px;
+}
+#restaurante-logo{
+  height: 225px;
+  align-self: center;
+}
+#carousel-one{
+  background-image: url("../img/wood-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#carousel-two{
+  background-image: url("../img/restaurant-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#carousel-three{
+  background-image: url("../img/farm-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/*CAROUSEL ENDS*/
+
+/*OUR STORY BEGINS*/
+.lobster-text{
+  font-family: 'Lobster', cursive;
+  font-size: 4em;
+}
+
+.orange-text{
+  color: #F8512F;
+}
+
+.shadow-text{
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+}
+
+.capitalize{
+  text-transform: capitalize;
+}
+
+.bolder{
+  font-weight: 800;
+}
+
+.standard-text{
+  font-family: 'Raleway', sans-serif;
+  color: #333333;
+}
+
+#our-story-margin{
+  margin-top: 5%;
+  margin-bottom: 12em;
+}
+
+.our-story-caption{
+  font-size: 1.3em;
+}
+
+.year-text{
+  font-size: 10em;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+}
+
+#year-text-position{
+  position: absolute;
+  z-index: -1;
+  color: #EAE9E9;
+}
+
+.paragraph-text{
+  font-size: 9pt;
+}
+
+/*OUR STORY ENDS*/
+
+/*REVIEWS SECTION BEGINS*/
+#veggie-background{
+  background-image: url("../img/food_review.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 70vh;
+}
+
+.review-paragraph{
+  font-size: 16pt;
+}
+
+.white-text{
+  color: white;
+}
+
+#review-headline-size{
+  font-size: 4em;
+}
+
+#review-background{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-top: 9em;
+}
+/*REVIEWS SECTION ENDS*/
+
+/*MENU SECTION BEGIN*/
+#menu-background{
+  background-image: url("../img/black_linen.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+.menu-item-img{
+  border: 1px solid #F0F0F0;
+  border-radius: 5px;
+  padding: 2%;
+}
+
+.thumbnail{
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  margin-top: 8%;
+}
+
+.menu-item{
+  background-color: white;
+}
+
+#menu-row{
+  margin: 0;
+}
+
+.menu-item-caption{
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+.thumbnail .caption{
+  padding: 0;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  border: 0;
+  margin-bottom: -3px;
+}
+
+.nav-tabs>li>a:hover{
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 0;
+}
+
+.nav-tabs>li {
+    margin-bottom: -6px;
+    border-radius: 5px 5px 0 0;
+    padding: 0;
+    font-size: .75em;
+}
+
+/*MENU SECTION ENDS*/
+
+/*FOOTER BEGINS*/
+.orange-background{
+  background-color: #F8512F;
+}
+
+footer .container-fluid{
+  padding-top: 32px;
+  height: 100vh;
+}
+
+#footer-margin{
+  margin-bottom: 30px;
+}
+label {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+label::after{
+  content: '*';
+  color: red;
+  margin-left: 2px;
+}
+
+button{
+  background-color: #EFEFEF;
+  margin: 10px 0 10px -12px;
+}
+
+.form-group{
+  margin-bottom: 0;
+}
+
+#form-border{
+  border: 1px solid white;
+  background-color: #FF6633;
+  padding: 0 10px;
+}
+
+.asterisk{
+  color: red;
+}
+
+#fine-print{
+  font-size: 10px;
+}
+
+.form-control:focus{
+  border-color: yellow;
+  box-shadow: inset 0 1px 1px yellow;
+}
+/*FOOTER ENDS*/
