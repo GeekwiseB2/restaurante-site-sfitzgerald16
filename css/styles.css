@@ -1,5 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Lobster|Playfair+Display:400,700|Raleway:400,800';
 
+* {
+  box-sizing: border-box;
+}
+
 /*NAV BEGINS*/
 .navbar-default {
      background: none;
